@@ -1,0 +1,83 @@
+html{
+    box-sizing: border-box;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+body{
+    
+    margin: 0;
+}
+
+img {
+    display: block;
+    /* width: 100px;
+    height: auto; */
+  }
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+
+    border-bottom: 3px #000 solid;
+}
+
+/* task-1 */
+
+
+
+.text{
+width: 400px;
+height: 500px;
+
+overflow: auto;
+
+border: 10px #0000004b solid;
+
+padding: 10px;
+
+margin-bottom: 30px;
+}
+
+.result{
+    margin-bottom: 30px;
+}
+
+.scroll-to{
+    margin-top: 30px;
+}
+
+/* task-2 */
+
+.task-2 > p{
+    text-transform: uppercase;
+    font-size: 48px;
+    font-family: sans-serif;
+}
+
